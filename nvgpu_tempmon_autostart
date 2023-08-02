@@ -1,0 +1,3 @@
+# По надобности вместо /opt/NVGPU_tempmon/nvgpu_tempmon.sh указать полный путь до скрипта проверки
+# Поместить файл в /etc/cron.d/
+@reboot root    /bin/bash /opt/NVGPU_tempmon/nvgpu_tempmon.sh
